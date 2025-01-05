@@ -1,0 +1,15 @@
+{
+  "type": "<MOD_ID>:<MOD_ID>_generic<NETHER>_jigsaw_structure",
+  "start_pool": "<MOD_ID>:<STRUCTURE_NAME>_start_pool",
+  "size": 1,
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "terrain_height_radius_check": "<RADIUS>",
+  "allowed_terrain_height_range": "<RANGE>",
+
+  "biomes": "#<MOD_ID>:has_structure/<BIOMES>",
+  "step": "surface_structures",
+  "terrain_adaptation": "<TERRAIN_ADAPTATION>",
+  "start_height": <START_HEIGHT>,
+
+  "spawn_overrides": {}
+}

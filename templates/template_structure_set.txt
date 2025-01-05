@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "<MOD_ID>:<STRUCTURE_NAME>",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "<MOD_ID>:advanced_random_spread",
+        "salt": <SALT>,
+        "spacing": <SPACING>,
+        "separation": <SEPARATION>
+    }
+}

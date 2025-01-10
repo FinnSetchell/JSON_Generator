@@ -49,8 +49,8 @@ def create_structure_json(template_path, output_folder, mod_id, structure_name, 
     print(f"\033[92mJSON file created: {output_file_path}\033[0m")
 
 def generate_integer_string():
-    # Generate the first digit (1-9)
-    first_digit = random.randint(1, 9)
+    # Generate the first digit (1)
+    first_digit = 1
     # Generate the remaining 8 digits (0-9)
     remaining_digits = [random.randint(0, 9) for _ in range(8)]
     # Combine the digits into a single string
